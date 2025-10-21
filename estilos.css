@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+body {
+	background-color: orange;
+}
+
+#contenedor {
+	width: 95%;
+	margin: 30px auto;
+}
+
+/*  header  */
+header {
+	background-color: beige;
+}
+
+header h1 {
+	padding: 20px;
+	text-align: center;
+	color: chocolate;
+}
+
+header img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+/*  nav  */
+nav {
+	background-color: yellow;
+}
+
+nav a {
+	padding: 10px;
+	text-decoration: none;
+	color: green;
+	display: inline-block;
+}
+
+/*  main  */
+main {
+	display: flex;
+	flex-wrap: wrap;  
+	justify-content: space-between;
+}
+
+/*  aside */
+aside {
+	width: 25%;
+	padding: 20px;
+	background-color: antiquewhite;
+}
+
+/*  aside izquierda  */
+aside h3 {
+	padding: 20px 0px;
+}
+
+aside a {
+	padding: 5px 0px;
+	display: block;
+	color: firebrick;
+}
+
+/*  aside derecha  */
+aside img {
+	width: 70%;
+	margin: 20px auto;
+	display: block;
+}
+
+/*  section  */
+section.galeria {
+	flex: 1;
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: white;
+}
+
+section.galeria figure {
+	width: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid blue;
+}
+
+section.galeria figure img {
+	width: 80%;
+	margin: 10px auto;
+	display: block;
+}
+
+section.galeria figure figcaption {
+	margin: 10px;
+	text-align: center;
+}
+
+/*  footer  */
+footer {
+	padding: 10px;
+	text-align: center;
+	background-color: green;
+}
+
+footer p {
+	margin-bottom: 10px;
+	color: white;
+}
+
+
+/**/
+#multimedia,
+#mapa,
+#video-externo {
+	padding: 20px;
+	background-color: beige;
+}
+
+audio,
+video,
+iframe {
+	width: 100%;
+	margin: 10px auto;
+	display: block;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.audiowide-regular {
+	font-family: "Audiowide", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.unifrakturcook-bold {
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+footer a {
+	color: white;
+	font-size: 1.5em;
+	margin: 0 10px;
+}
+
+#mapa {
+  width: 50%;
+  text-align: center;
+}
+
+#video-externo {
+  flex: 1;
+}
